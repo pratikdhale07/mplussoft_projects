@@ -1,1 +1,502 @@
-<h2>First Projects</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Acadamy University</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="index.css" />
+
+        <style>
+            @media (max-width:600px) {
+                .mainImage {
+                    display: none;
+                }
+
+                .mobileViewBtn {
+                    margin-bottom: 40px;
+                }
+
+                .bgAcadmy1 {
+                    display: none;
+                }
+
+                .bgAcadmy2 {
+                    display: none;
+                }
+
+            }
+            @media (max-width: 768px) {
+    .right-column {
+        display: none !important;
+    }
+}
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <!-- <img src="https://img.icons8.com/?size=80&id=42437&format=png" style="height: 60px;" alt="Logo" />
+                <a class="navbar-brand fw-bold fs-1 pe-5 text-danger" href="#">acadamy</a> -->
+
+                <a class="navbar-brand" href="#">
+                    <img src="https://img.icons8.com/?size=80&id=42437&format=png" width="40" height="40"
+                        class="d-inline-block align-center" alt="">
+                    Acadamy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-3 text-danger-active">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">What We Do</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Our Programs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Elements</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero py-4">
+            <div class="container">
+                <div class="row d-flex align-items-center justify-content-center text-center">
+
+                    <!-- Image Column -->
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 ps-1 mainImage">
+                        <img src="./Images/pratik.png" alt="..." class="img-fluid w-100 h-auto">
+                    </div>
+
+                    <!-- Content Column -->
+                    <div class="col-lg-4 col-md-6 col-12 d-flex flex-column align-items-center py-5 ">
+
+                        <!-- Circle Text -->
+                        <div class="rounded-circle border border-3 border-white d-flex align-items-center justify-content-center mb-3"
+                            style="width: 120px; height: 120px; background-color: rgba(3, 3, 3, 0.925);">
+                            <p class="text-white text-center small fw-bold mb-0" style="font-size: 13px;">
+                                PREPARING<br>FOR BRIGHT FUTURE
+                            </p>
+                        </div>
+
+                        <!-- Title & Description -->
+                        <div class="fs-1 fw-bold">
+                            <h1 class="mb-0">PEOPLE</h1>
+                        </div>
+
+                        <h2 class="my-2">FOR TOMORROW</h2>
+                        <p class="lead">Your Education on Your Own Terms</p>
+
+                        <!-- Button -->
+                        <div class="mt-1 mb-4 w-4 pb-4 mobileViewBtn">
+                            <a href="#" class="btn btn-dark w-100">View More Details</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- <div class="container-fluid p-0">
+            <img src="../Images/students.jpg" class="img-fluid w-100" alt="Students" />
+        </div> -->
+
+
+        <section class="py-4" style="margin-top:-90px;">
+            <div class="container">
+                <div class=" row text-center text-md-start g-0 ">
+                    <!-- Feature 1 -->
+                    <div class="col-md-4 p-0">
+                        <div class="p-4 border bg-white h-200">
+                            <h5 class="fw-bold">Bright Learning<br>____</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, alias nam?
+                                Saepe ipsum
+                                cupiditate beatae facere obcaecati architecto.fdjh fdj </p>
+                            <a href="#" class="btn btn-outline-danger btn-sm">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="col-md-4 p-0">
+                        <div class="p-4 bg-danger text-white h-200">
+                            <h5 class="fw-bold">Qualified Staffs<br>____</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident velit
+                                cupiditate fuga
+                                officia doloremque, quae nesciunt placeat praesentium.</p>
+                            <a href="#" class="btn btn-outline-light btn-sm">Read More</a>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="col-md-4 p-0">
+                        <div class="p-4 border bg-white h-200">
+                            <h5 class="fw-bold">Certified Courses<br>____</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui officia sed,
+                                obcaecati
+                                minus dolores, eos excepturi alias ab velit hsjdsjd hbjbj jbhjh jbb hb.</p>
+                            <a href="#" class="btn btn-outline-danger btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Welcome Section -->
+        <section class="py-2">
+            <div class="container">
+                <div>
+                    <h2 class=" text-center text-danger">Welcome To Acadamy</h2>
+                </div>
+                <div class="text-center">
+                    <h1 class="text-dark">------<i class="bi bi-bank text-danger"></i>-----</h1>
+                </div>
+                <div class=" row g-4 mt-4">
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card8.jpg'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    World Class<br> Research Labs
+                                </h4>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card9.jpg'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    Placement Training<br> Programs
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card10'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    Modern Education<br> Materials
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card11.jpg'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    High Grade<br> Referances Guided
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card10'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    Master Of<br> Business Research
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card11.jpg'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    Design<br> Engineering Courses
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card9.jpg'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    Online Learning<br> Library
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class=" text-white"
+                            style="background-image: url('../Images/card8.jpg'); background-size: cover; background-position: center; height: 350px;">
+                            <div class="position-relative  bg-light vh-25">
+                                <h4 class="position-absolute top-0 start-0 m-1 p-2 fw-bold">
+                                    Kind And Caring<br> Staffs
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section class="bg-acadmy text-white mt-4">
+    <div class="container-fluid">
+        <div class="row flex-column flex-md-row">
+            <!-- Left Column -->
+            <div class="col-12 col-md-6 p-4 d-flex align-items-center justify-content-center"
+                style="background-color: rgba(211, 50, 87, 0.9);">
+                <div class="text-center text-md-start">
+                    <small class="text-uppercase">Take the first step to knowledge with us</small>
+                    <h3 class="fw-bold mt-2">
+                        Accadmy University shapes and molds the students as successful leaders and guides them to create their own victorious future.
+                    </h3>
+                    <p class="mt-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ratione sint minima neque aliquam expedita necessitatibus ullam itaque explicabo doloribus, voluptatem possimus officia quos! Placeat eum magni dolorem laborum? Molestias.
+                    </p>
+                    <a href="#" class="btn btn-outline-light mt-3">Learn More About Us</a>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-12 col-md-6 p-4 d-flex align-items-center justify-content-center right-column">
+                <div class="text-center">
+                    <h2 class="fw-bold">
+                        <span class="bg-white text-danger p-2 rounded d-inline-block">ACADAMY</span>
+                    </h2>
+                    <h3 class="fs-5 text-white bg-danger p-3 rounded mt-3">
+                        Start With a Dream, Finish With a Future
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- What We Offer -->
+        <section class="py-3  text-center">
+            <div class="container">
+                <div>
+                    <h2 class=" text-danger">What We Offer </h2>
+                </div>
+                <div class="text-center">
+                    <h1 class="text-dark">------<i class="bi bi-bank text-danger"></i>-----</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./Images/card14.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-md-start bg-opacity-10 bg-dark">
+                                <h3 class="card-title">Career and Technical Education</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer. jdxcdk sjd sjdad jdhs ujws
+                                    sah sajhd
+                                    js </p>
+                            </div>
+                            <div class="card-footer bg-danger">
+                                <button type="button" class="btn btn-danger">Click Here <i
+                                        class="bi bi-arrow-right-circle-fill text-dark p-1"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./Images/card12.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-md-start bg-opacity-10 bg-dark">
+                                <h3 class="card-title">Better Education For a Better world</h3>
+                                <p class="card-text">This card has supporting text below as a natural
+                                    lead-in to
+                                    additional content. hjdsb shdbjhs jshdsd bshd sjhb gsh sahsad hsda asdad
+                                    sdbsad hshd
+                                    suhda sdad </p>
+                            </div>
+                            <div class="card-footer bg-danger">
+                                <button type="button" class="btn btn-danger">Click Here <i
+                                        class="bi bi-arrow-right-circle-fill text-dark p-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./Images/card13.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-md-start bg-opacity-10 bg-dark">
+                                <h3 class="card-title">Superior Learing And Teaching Materials</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional
+                                    content. This card has even longer content than the first to show that
+                                    equal
+                                    height
+                                    action.</p>
+                            </div>
+                            <div class="card-footer bg-danger">
+                                <button type="button" class="btn btn-danger">Click Here <i
+                                        class="bi bi-arrow-right-circle-fill text-dark p-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-2 text-center">
+            <div class="container">
+                <div>
+                    <h1 class="mb-4 text-danger">Our Success Counts</h1>
+                </div>
+                <div class="text-center">
+                    <h1 class="text-dark">------<i class="bi bi-bank text-danger"></i>-----</h1>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-3">
+                        <div class="rounded-circle border border-3 border-dark d-flex align-items-center justify-content-center mx-auto bg-dark bg-opacity-10"
+                            style="width: 100px; height: 100px;">
+                            <h3 class="text-dark m-0 fs-4">3567+</h3>
+                        </div>
+
+                        <p>Passed Graduates</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-circle border border-3 border-dark d-flex align-items-center justify-content-center mx-auto bg-dark bg-opacity-10"
+                            style="width: 100px; height: 100px;">
+                            <h3 class="text-dark m-0 fs-4">450+</h3>
+                        </div>
+
+                        <p>Qualified Staffs</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-circle border border-3 border-dark d-flex align-items-center justify-content-center mx-auto bg-dark bg-opacity-10"
+                            style="width: 100px; height: 100px;">
+                            <h3 class="text-dark m-0 fs-4">50+</h3>
+                        </div>
+
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="rounded-circle border border-3 border-dark d-flex align-items-center justify-content-center mx-auto bg-dark bg-opacity-10"
+                            style="width: 100px; height: 100px; opacity: 25;">
+
+                            <h3 class="text-dark m-0 fs-4">135+</h3>
+                        </div>
+                        <p>Courses Published</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+    <div class="container-fluid bg-dark text-light py-5">
+        <div class="row g-4 px-4">
+            <!-- Sign Up Section -->
+            <div class="col-lg-6">
+                <h1>Don't Miss Out</h1>
+                <p>Sign up for the latest beauty news, product samples and coupons</p>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">EMAIL ADDRESS*</label>
+                        <input type="email" class="form-control p-3" placeholder="Enter Your Email Address" required />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="birthday" class="form-label">BIRTHDAY*</label>
+                        <input type="date" class="form-control p-3" id="birthday" name="birthday">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-outline-light w-100 p-3">SIGN UP</button>
+                    </div>
+                </form>
+
+                <p class="pt-3 small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis accusantium iure rerum natus?</p>
+                <p class="pt-2 small">*Required information</p>
+
+                <!-- Social Icons -->
+                <div class="d-flex flex-wrap gap-3 mt-3 mb-3">
+                    <a href="#" class="text-white"><i class="bi bi-instagram fs-3"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-facebook fs-3"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter fs-3"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube fs-3"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin fs-3"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-pinterest fs-3"></i></a>
+                </div>
+            </div>
+
+            <!-- Link Sections -->
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <h5 class="text-uppercase">Company</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white-50 text-decoration-none">About</a></li>
+                            <li><a href="#" class="text-white-50 text-decoration-none">Experts and Spokesmodels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <h5 class="text-uppercase">Customer Service</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white-50 text-decoration-none">Contact Us</a></li>
+                            <li><a href="#" class="text-white-50 text-decoration-none">My Account</a></li>
+                            <li><a href="#" class="text-white-50 text-decoration-none">Store Locator</a></li>
+                            <li><a href="#" class="text-white-50 text-decoration-none">Redeem Rewards</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 mt-4 mt-md-0">
+                        <h5 class="text-uppercase">More to Explore</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white-50 text-decoration-none">Beauty Magazine</a></li>
+                            <li><a href="#" class="text-white-50 text-decoration-none">Tools and Consultations</a></li>
+                            <li><a href="#" class="text-white-50 text-decoration-none">Offers</a></li>
+                            <li><a href="#" class="text-white-50 text-decoration-none">#LorealParis</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="border-light mt-5" />
+
+        <!-- Footer Bottom -->
+        <div class="row px-4 align-items-center text-white-50 text-center text-md-start">
+            <div class="col-md-8 d-flex flex-wrap justify-content-center justify-content-md-start gap-3 mb-3">
+                <a href="#" class="text-decoration-none text-white-50">Site Map</a>
+                <a href="#" class="text-decoration-none text-white-50">Privacy</a>
+                <a href="#" class="text-decoration-none text-white-50">Terms</a>
+                <a href="#" class="text-decoration-none text-white-50">User Content Permission Terms</a>
+                <a href="#" class="text-decoration-none text-white-50">Makeup.com</a>
+                <a href="#" class="text-decoration-none text-white-50">Skincare.com</a>
+            </div>
+            <div class="col-md-4 text-center text-md-end">
+                <span>© 2019 L’Oréal Paris</span> | 
+                <a href="#" class="text-decoration-none fw-bold text-white">BACK TO TOP</a>
+            </div>
+        </div>
+
+        <hr class="border-light mt-4" />
+
+        <div class="text-center px-3">
+            <small>This site is intended for US Consumers. Cookies and related technology are used for advertising. To learn more, visit AdChoices and our Privacy Policy.</small>
+        </div>
+    </div>
+</footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>

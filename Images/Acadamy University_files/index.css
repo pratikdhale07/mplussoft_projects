@@ -1,0 +1,30 @@
+.hero {
+    background-image: url('/Images/student.jpg');
+    /* optional background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border: none;
+    padding: 20px;
+}
+
+.hero {
+    background: #d42a46;
+    color: white;
+    /* padding: 100px 0; */
+    text-align: center;
+    opacity: 20px;
+}
+
+.hero img {
+    max-height: 700px;
+}
+
+.bg-acadam {
+    background-image: url('graduate.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
